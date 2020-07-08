@@ -1,3 +1,3 @@
 # test
 
-Dies ist noch ein weiterer Test von PC3205CO aus. ohne Signatur
+Dies ist noch ein weiterer Test von PC3205CO aus. Noch ohne Signatur

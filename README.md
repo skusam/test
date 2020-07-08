@@ -1,3 +1,3 @@
 # test
 
-Dies ist noch ein Test
+Dies ist ein Test von PC3205CO aus.

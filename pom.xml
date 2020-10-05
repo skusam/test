@@ -87,4 +87,8 @@
 		</snapshotRepository>
 	</distributionManagement>
   
+  	<scm>
+		<developerConnection>scm:git:ssh://git@github.com:skusam/test.git</developerConnection>
+  </scm>
+  
 </project>

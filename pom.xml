@@ -88,7 +88,7 @@
   
   	<scm>
 		<developerConnection>scm:git:ssh://git@github.com/skusam/test.git</developerConnection>
-    <tag>test-1.0</tag>
+    <tag>my-branch</tag>
   </scm>
   
 </project>

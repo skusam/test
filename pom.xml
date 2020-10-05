@@ -16,8 +16,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+	<infodesign.artifact.repository>http://nexus.rzdir.infodesign.de:8081/repository</infodesign.artifact.repository>
   </properties>
-
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -72,4 +73,18 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Releases</name>
+			<url>${infodesign.artifact.repository}/maven-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>${infodesign.artifact.repository}/maven-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
 </project>
